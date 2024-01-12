@@ -5,8 +5,8 @@ const PORT = 8080;
 
 app.use(cors());
 
-app.get("/api/home", (req, res) => {
-  res.json({ message: "Like this video!", people: ["Arpan", "Jack", "Barry"] });
+app.get("/home", (req, res) => {
+  res.json({ message: "nextjs+node boilerplate by :", people: ["Aryan"] });
 });
 
 app.listen(PORT, () => {
